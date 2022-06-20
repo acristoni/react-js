@@ -26,3 +26,8 @@ Uma bibliotaca JavaCript para criar interfaces de usuário
 
 ##Pode ser utilizado em qualquer lugar
 
+###O que é JSX?
+
+Linguegem de marcação utilizada no React - Sintax Sugar
+O browser não intepreta o Babbel que faz isso!
+
