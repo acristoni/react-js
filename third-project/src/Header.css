@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  .boxLogo, .main, .texts {
+    max-width: 594px;
+    width: 100%;
+  }
+  
+  .logo {
+    width: 82.02px;
+    height: 25.35px;
+    margin: 22px 30px;
+  }
+  
+  .line {
+    height: 7px;
+    width: 100%;
+    background-image: linear-gradient(lightgrey, white);
+  }
+  
+  .main {
+    margin-top: 26px;
+    padding-left: 77px;
+    padding-right: 77px;
+    max-height: 348px;
+    height: 100%;
+  }
+
+.texts {
+    padding: 32px 36px;
+}
+
+.texts > h1 {
+    font-weight: 600;
+    font-size: 36px;
+    max-width: 396px;
+    width: 100%;
+    color: #000000;
+}
+
+.texts > p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #222222;
+    max-width: 320px;
+    width: 100%;
+}
