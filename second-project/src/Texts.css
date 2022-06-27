@@ -1,0 +1,22 @@
+.textes, .about, .interest {
+    display: flex;
+    flex-direction: column;
+}
+
+.titletext, .contenttext {
+    margin: 0;
+    padding: 0;
+}
+
+.titletext {
+    font-weight: 700;
+    font-size: 16px;
+    color: #F5F5F5;
+}
+
+.contenttext {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 10.24px;
+    color: #DCDCDC;
+}

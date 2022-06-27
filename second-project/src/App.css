@@ -1,0 +1,7 @@
+.all {
+    display: flex;
+}
+
+.container {
+    margin: 20px auto;
+}
