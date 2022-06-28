@@ -1,0 +1,7 @@
+footer {
+    margin: 0 auto;
+    max-width: 594px;
+    width: 100%;
+    padding-left: 37px;
+    display: flex;
+}

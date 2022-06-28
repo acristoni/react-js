@@ -7,12 +7,21 @@ section {
     padding: 1px;
 }
 
+.none {
+    display: none;
+}
+
 .card {
     max-width: 176px;
     width: 100%;
+    margin-right: 18px;
 }
 
-.card > img {
+.relative {
+    position: relative;
+}
+
+.foto {
     border-radius: 10px;
     height: 235px;
 }
@@ -64,7 +73,7 @@ section {
     justify-content: center;
 }
 
-.tag > p {
+.tagContent {
     font-weight: 400;
     font-size: 10.24px;
     color: #222222;

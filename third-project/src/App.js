@@ -1,19 +1,13 @@
 import './App.css';
-//import Header from "./Header.js"
-import Card from "./Card.js"
-
-//<Header />
+import Header from "./Header.js"
+import Corosel from './Carosel.js'
 
 function App() {
   return (
-    <Card 
-      img='swimmer.png'
-      rating='5.0'
-      reviewCount='6'
-      country='USA'
-      title='Life Lessons with Katie Zaferes'
-      price='136'
-    />  
+    <>        
+      <Header />
+      <Corosel />
+    </>
   );
 }
 
