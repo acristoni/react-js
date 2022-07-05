@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 4px 37px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.troll-face {
+    width: 31.31px;
+    height: 26.22px;
+    margin-right: 7px;
+}
+
+.title--header {
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+}
+
+.subtitle--header {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #FFFFFF;
+}
