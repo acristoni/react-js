@@ -1,27 +1,21 @@
-import styled from 'styled-components'
-import { string } from 'prop-types'
+import styled from 'styled-components';
 
-export const Button = ({children}) => {
-    return <Buttons>{children}</Buttons>
-}
+export const Button = styled.button`
+  background: #f27137;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  font-family: 'New Tegomin', serif;
+  cursor: pointer;
+  box-shadow: #332c36 3px 3px;
 
-Button.propTypes = {
-    children: string
-}
+  &:hover {
+    background-color: #a40000;
+  }
 
-const Buttons = styled.button`
-    background: #DC872C;
-    color: white;
-    border: none;
-    border-radius: 0;
-    font-size: 1.5em;
-    padding: 10px 20px;
-    font-family: "New Tegomin";
-    cursor: pointer;
-    box-shadow: #333 3px 3px;
-
-    &:hover {
-        background: red;
-    }
+  &:focus {
+    outline: none;
+  }
 `;
-

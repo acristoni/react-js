@@ -1,3 +1,4 @@
+import React from 'react';
 import { render, screen, fireEvent } from "@testing-library/react";
 import { Quotes } from "./Quotes";
 
@@ -26,5 +27,6 @@ test('calls a callback when button is pressed', () => {
   const buttonEl = screen.getByRole('button');
 
   fireEvent.click(buttonEl);
+  
   expect(callback).toHaveBeenCalledTimes(1);
 });
